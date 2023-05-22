@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style/style.css">       
+        <script src="js/codigo.js"></script>
+        
+    </head>
+
+    <body>
+        
+        <header>
+            <img src="img/Logo.png">
+            
+        </header>
+
+        <main>
+            <div>
+                <textarea  oninput="convertirMinusculas(this)" id="miTexto"  class="casilla" cols="30" rows="5" placeholder="Ingresa el texto aqui" autofocus></textarea>
+            </div>
+
+            <div class="cuadro">
+                <img src="img/img1.png">
+                <textarea  id="cambioDeTexto" oninput="this.value = this.value.toLowerCase()" cols="30" rows="10" placeholder="Ningún texto fue encontrado"></textarea>
+                <button class="boton3" onclick="copiarTexto()">Copiar</button>
+            </div>
+
+            <div class="texto-gris">
+                <p class="simbolo">!</p><p> Solo letras minúsculas y sin acentos</p>
+            
+            </div>
+
+            <div class="botones">
+                
+                <button class="boton1" onclick="cambioTexto()">
+                    <h1>Encriptar</h1>
+                </button>
+                <button class="boton2" onclick="cambioTexto2()">
+                    <h1>Descencriptar</h1>
+                </button>
+            </div>
+            
+        </main>
+        <footer>
+            <p>Creado Por Ronaldo Gaitan</p>
+        </footer>
+    </body>
+</html>

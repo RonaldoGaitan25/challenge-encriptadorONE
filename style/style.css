@@ -1,0 +1,145 @@
+header{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.casilla{
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    background: #E9ECF8;
+    font-size: 20px;
+    padding: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+::placeholder{
+    color: darkblue;
+    opacity: 60%;
+}
+
+body{
+    background: #E9ECF8;
+}
+
+.cuadro{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 25%;
+    height: 75%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.493);
+  
+}
+
+.cuadro p{
+    position: absolute;
+    top:70%;
+    right: 5%;
+    left: 30%;
+}
+
+.cuadro img{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    left: 25%;
+    width: 50%;
+
+}
+
+.cuadro button{
+    position: absolute;
+    top: 90%;
+    right: 30%;
+    left: 35%;
+    width: 30%;
+    height: 7%;
+    border-radius: 15px;
+    background-color: #c8cbce;
+    border-color: darkblue;
+
+}
+
+#cambioDeTexto{
+    position: absolute;
+    top:60%;
+    width: 90%;
+    border: none;
+    outline: none;
+    left: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    
+}
+
+#cambioDeTexto::placeholder{
+    text-align: center;
+}
+
+.texto-gris{
+    display: inline-flex;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    right: 25%;
+    color: #97999b;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.simbolo{
+    font-size: 15px; 
+    width: 2%; 
+    height: 3%; 
+    border-radius: 50%; 
+    background-color: rgb(83, 83, 83);
+    text-align: center; 
+    font-size: 12px; 
+    color: white; 
+    margin: 0; 
+    padding: 0.1%;
+}
+.botones{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    right: 25%;     
+}
+
+
+.boton1, .boton2{
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    font-size: 50%;
+    border-radius: 20px;
+    width: 30%;  
+}
+
+.boton2{
+    background-color: #bfc5ce;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+.boton1:hover, .boton1:focus, .boton2:hover, .boton2:focus, .boton3:hover, .boton3:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+            transform: translateY(-0.25em);
+}
+
+footer{
+    position: absolute;
+    top: 95%;
+    right: 5%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
